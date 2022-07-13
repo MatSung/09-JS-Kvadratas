@@ -1,0 +1,44 @@
+html{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.main-div{
+    width: 310px;
+    /* width: 90%; */
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    border: 1px solid black;
+}
+
+.square-container{
+    display: flex;
+    background-color: black;
+    gap: 2.5px;
+    padding: 2px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: rgb(0, 255, 0);
+}
+
+.red
+{
+    background-color: red;
+}
+
+.unpicked:hover{
+    background-color: aqua;
+}
